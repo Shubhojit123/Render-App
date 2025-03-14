@@ -147,3 +147,8 @@ try {
 }
 
 Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
+
+chmod +x mvnw
+git add mvnw
+git commit -m "Make mvnw executable"
+git push origin main
